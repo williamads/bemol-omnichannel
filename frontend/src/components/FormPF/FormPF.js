@@ -26,10 +26,6 @@ function FormPF() {
             abortEarly: false
         });
 
-        console.log(data.cep);
-
-        console.log(data);
-
         axios.post("http://localhost:3333/create_pf_user", data).then(res => {
             alert("Usuário cadastrado", JSON.stringify(res.data))
         })
