@@ -45,6 +45,6 @@ Após as dependências terem sido instaladas, podemos executar o front-end com o
 $ yarn start
 ```
 
-Agora já podemos testar a features pelo browzer.
+Agora já podemos testar a feature pelo browzer.
 
 Como não foi implementado uma tela para visualizar os usuários cadastrados, fiz um end point na API para listar os usuário de cada tipo (PF ou PJ): http://localhost:3333/get_pf_users ou http://localhost:3333/get_pj_users 
